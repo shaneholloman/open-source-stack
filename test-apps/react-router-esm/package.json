@@ -1,5 +1,5 @@
 {
-  "name": "react-router-vite",
+  "name": "react-router-esm",
   "private": true,
   "sideEffects": false,
   "type": "module",
