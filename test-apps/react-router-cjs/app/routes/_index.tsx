@@ -1,6 +1,4 @@
-import type { MetaFunction } from "@remix-run/node";
-// Import and test your package
-import { test } from "open-source-stack";
+import type { MetaFunction } from "react-router";
 
 export const meta: MetaFunction = () => {
   return [{ title: "New Remix App" }, { name: "description", content: "Welcome to Remix!" }];

@@ -1,4 +1,5 @@
-import type { MetaFunction } from "@remix-run/node";
+import type { MetaFunction } from "react-router";
+// Import and test your package
 import { test } from "open-source-stack";
 
 export const meta: MetaFunction = () => {
