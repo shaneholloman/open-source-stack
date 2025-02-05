@@ -25,8 +25,8 @@
 		"test:cov": "vitest run --coverage",
 		"postbuild": "npm run check:exports",
 		"build": "tsup src/index.ts --config tsup.config.ts",
-		"remix:dev": "npm run dev -w test-apps/remix-vite",
-		"remix:cjs:dev": "npm run dev -w test-apps/remix-vite-cjs",
+		"remix:dev": "npm run dev -w test-apps/react-router-vite",
+		"remix:cjs:dev": "npm run dev -w test-apps/react-router-cjs",
 		"build:dev": "tsup src/index.ts --config tsup.dev.config.ts",
 		"build:dev:watch": "npm run build:dev -- --watch",
 		"build:dev:cjs:watch": "npm run build:dev -- --watch",
@@ -36,7 +36,7 @@
 		"check": "biome check .",
 		"check:fix": "biome check --fix .",
 		"typecheck": "tsc",
-		"validate": "npm run check && npm run tsc && npm run test",
+		"validate": "npm run check && npm run typecheck && npm run test",
 		"check:exports": "attw --pack .",
 		"local-release": "changeset version && changeset publish"
 	},
@@ -49,8 +49,13 @@
 	"bugs": {
 		"url": "https://github.com/forge42dev/open-source-stack/issues"
 	},
-	"files": ["dist"],
-	"workspaces": [".", "test-apps/*"],
+	"files": [
+		"dist"
+	],
+	"workspaces": [
+		".",
+		"test-apps/*"
+	],
 	"homepage": "https://github.com/forge42dev/open-source-stack#readme",
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.4",

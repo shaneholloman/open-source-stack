@@ -4,7 +4,7 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";
+} from "react-router";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
