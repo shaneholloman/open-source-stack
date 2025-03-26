@@ -1,8 +1,13 @@
 import type { MetaFunction } from "react-router";
+import { test } from "open-source-stack";
 
 export const meta: MetaFunction = () => {
   return [{ title: "New Remix App" }, { name: "description", content: "Welcome to Remix!" }];
 };
+
+export const loader = () => {
+  test();
+}
 
 export default function Index() {
   return (
