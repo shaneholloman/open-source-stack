@@ -5,6 +5,6 @@ pre-commit:
       run: pnpm run check -- --staged --fix --no-errors-on-unmatched
       stage_fixed: true
     typecheck:
-      run: pnpm run --filter="./packages/**/*" --parallel typecheck
+      run: pnpm run typecheck
     test:
-      run: pnpm run --filter="./packages/**/*" --parallel test
+      run: pnpm run test
