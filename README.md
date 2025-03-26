@@ -1,11 +1,11 @@
 # Open-source stack
 
-![GitHub Repo stars](https://img.shields.io/github/stars/forge42dev/open-source-stack?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/forge-42/open-source-stack?style=social)
 ![npm](https://img.shields.io/npm/v/open-source-stack?style=plastic)
-![GitHub](https://img.shields.io/github/license/forge42dev/open-source-stack?style=plastic)
+![GitHub](https://img.shields.io/github/license/forge-42/open-source-stack?style=plastic)
 ![npm](https://img.shields.io/npm/dy/open-source-stack?style=plastic)
 ![npm](https://img.shields.io/npm/dw/open-source-stack?style=plastic)
-![GitHub top language](https://img.shields.io/github/languages/top/forge42dev/open-source-stack?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/forge-42/open-source-stack?style=plastic)
 
 Full starter stack to develop CJS/ESM compatible npm packages with TypeScript, Vitest, Biome, Prettier, and GitHub Actions.
 
