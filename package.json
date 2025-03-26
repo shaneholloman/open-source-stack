@@ -34,9 +34,9 @@
 		"@types/node": "^20.12.7",
 		"lefthook": "^1.7.2"
 	},
-	"packageManager": "pnpm@9.12.2",
+	"packageManager": "pnpm@10.6.5",
 	"engines": {
-		"pnpm": ">=9.12.2",
+		"pnpm": ">=10.6.5",
 		"node": ">=20.0.0"
 	}
 }
