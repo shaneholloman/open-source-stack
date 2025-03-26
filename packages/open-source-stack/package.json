@@ -35,13 +35,15 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/forge42dev/open-source-stack.git"
+		"url": "git+https://github.com/forge-42/open-source-stack.git"
 	},
 	"bugs": {
-		"url": "https://github.com/forge42dev/open-source-stack/issues"
+		"url": "https://github.com/forge-42/open-source-stack/issues"
 	},
-	"files": ["dist"],
-	"homepage": "https://github.com/forge42dev/open-source-stack#readme",
+	"files": [
+		"dist"
+	],
+	"homepage": "https://github.com/forge-42/open-source-stack#readme",
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.4",
 		"@changesets/cli": "^2.27.7",
