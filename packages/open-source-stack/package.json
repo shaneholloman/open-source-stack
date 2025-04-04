@@ -40,10 +40,11 @@
 	"bugs": {
 		"url": "https://github.com/forge-42/open-source-stack/issues"
 	},
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"homepage": "https://github.com/forge-42/open-source-stack#readme",
+	"publishConfig": {
+		"provenance": true
+	},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.4",
 		"@changesets/cli": "^2.27.7",
