@@ -1,6 +1,6 @@
 {
 	"name": "open-source-stack",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Minimal open-source stack to help you ship an open-source package in TS",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
@@ -40,7 +40,9 @@
 	"bugs": {
 		"url": "https://github.com/forge-42/open-source-stack/issues"
 	},
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"homepage": "https://github.com/forge-42/open-source-stack#readme",
 	"publishConfig": {
 		"provenance": true
