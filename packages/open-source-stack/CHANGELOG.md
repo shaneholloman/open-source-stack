@@ -1,5 +1,12 @@
 # open-source-stack
 
+## 1.1.2
+
+### Patch Changes
+
+- 45ae372: Updated dependencies, fixed a bug with staging script
+- ecd88f8: Migrated to tsdown from tsup
+
 ## 1.1.1
 
 ### Patch Changes
