@@ -23,7 +23,7 @@ Build your own open-source project today! 🚀
 - **Vitest**: A modern test runner built on top of Vite.
 - **Biome**: Biome statically analyzes your code to find issues and formats your code with a consistent, opinionated style.
 - **GitHub Actions**: Automate your workflow from idea to production.
-- **tsup** - Zero-config bundler for tiny TypeScript libraries.
+- **tsdown** - Simple to config bundler powered by rolldown.
 - **Changeset** - A way to manage your versioning and changelog with a focus on monorepos.
 - **pnpm workspaces** - A way to manage multiple packages in a single repository.
 
